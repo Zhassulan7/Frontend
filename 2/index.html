@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scaleble=0, initial-scale=1">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-none">
+				<a class="navbar-brand mr-5" href="#">
+					<img src="img/logo.png" alt="Joby">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#">employers<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#">portfolio</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#">about us</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#">team</a>
+						</li>
+					</ul>
+				</div>
+				<button type="button" class="btn btn-primary px-5 login" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</button>
+				
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Авторизоваться:</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="recipient-login" class="col-form-label">Введите логин:</label>
+										<input type="text" class="form-control" id="recipient-name">
+									</div>
+									<div class="form-group">
+										<label for="message-password" class="col-form-label">Введите пароль:</label>
+										<input class="form-control"  type="password" id="message-password">
+											<i class="far fa-eye opened_eye"></i>
+											<i class="far fa-eye-slash closed_eye"></i>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-primary">Логин:</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="img/slider-pic.jpg" alt="First slide">
+					<div class="carousel-caption d-md-block">
+						<h1 class="txt_in_slider">Where will <span class="black_words_in_slider">great work</span><br> take you?</h1>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/slider-pic.jpg" alt="Second slide">
+					<div class="carousel-caption d-md-block">
+						<h1 class="txt_in_slider">Where will <span class="black_words_in_slider">great work</span><br> take you?</h1>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/slider-pic.jpg" alt="Third slide">
+					<div class="carousel-caption d-md-block">
+						<h1 class="txt_in_slider">Where will <span class="black_words_in_slider">great work</span><br> take you?</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="block_after_slider">
+		<div class="container">
+			<h2 class="services_main_title text-center pt-5 text-uppercase"><span class="text-body">We give</span>  best Services</h2>
+			<p class="services_main_description mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus consequuntur tempora unde, laborum dicta cumque beatae suscipit esse sapiente nam porro itaque assumenda, ex illo sint, ad voluptate. Doloremque, perferendis.</p>
+			<div class="services_wrap text-center row">
+				<div class="services col-md-3">
+					<a href="#">
+						<i class="fas fa-road service_icons"></i>
+						<h3 class="services_title">New Way of Vision</h3>
+					</a>
+					<p class="service_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium natus eius odit sapiente. Quisquam, voluptas nihil. Itaque, alias praesentium!</p>
+				</div>
+				<div class="services col-md-3">
+					<a href="#">
+						<i class="fas fa-leaf service_icons"></i>
+						<h3 class="services_title">Fresh Ideas</h3>
+					</a>
+					<p class="service_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium natus eius oditsapiente. Quisquam, voluptas nihil. Itaque, alias praesentium!</p>
+				</div>
+				<div class="services col-md-3">
+					<a href="#">
+						<i class="fas fa-home service_icons"></i>
+						<h3 class="services_title">Strong Foundations</h3>
+					</a>
+					<p class="service_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium natus eius oditsapiente. Quisquam, voluptas nihil. Itaque, alias praesentium!</p>
+				</div>
+				<div class="services col-md-3">
+					<a href="#">
+						<i class="fas fa-users service_icons"></i>
+						<h3 class="services_title">Great Support</h3>
+					</a>
+					<p class="service_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium natus eius oditsapiente. Quisquam, voluptas nihil. Itaque, alias praesentium!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="perfect_match_wrap row">
+			<img src="img/pic-big-1.png" alt="..." class="mt-5 hand_people col-md-4">
+			<div class="col-md-8 perfect_match_content">
+				<h4 class="perfect_match same_titles mb-4">Find <span class="same_green_txt">the perfect match</span><br> fast</h4>
+				<p class="perfect_match_txt same_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere praesentium magnam iure facilis quaerat, modi magni eos repellat et corporis sit sunt commodi! Aut recusandae sapiente, adipisci corrupti voluptas autem?</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="great_work_block">
+		<div class="container">
+				<div class="great_work_wrap row">
+					<ul class="col-md-7">
+						<h5 class="great_work_title same_titles mb-4">Great <span class="same_green_txt">work starts</span> with<br>great
+							talent</h5>
+						<li class="same_txt list_in_great_work">
+							<i class="fas fa-arrow-right"></i>
+							Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+						<li class="same_txt list_in_great_work">
+							<i class="fas fa-arrow-right"></i>
+							Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+						<li class="same_txt list_in_great_work">
+							<i class="fas fa-arrow-right"></i>
+							Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+						<li class="same_txt list_in_great_work">
+							<i class="fas fa-arrow-right"></i>
+							Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+						<li class="same_txt list_in_great_work">
+							<i class="fas fa-arrow-right"></i>
+							Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+					</ul>
+					<img class="col-md-5 image_in_perfect" src="img/pic-big-2.png" alt="">
+				</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h6 class="job_title same_titles text-center my-5">Recent Work Done on <span class="same_green_txt">JOB BOARD</span></h6>
+		<div class="cards_in_job_wrap_first_top text-center">
+			<div class="card-deck">
+				<div class="card">
+					<img class="card-img-top" src="img/pic-1.jpg" alt="Card image cap">
+					<div class="card-body">
+						<a class="btn btn-primary btn_blue" href="#">graphics</a>
+						<h6 class="card-title job_titles">Round Icons Design</h6>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="img/pic-2.jpg" alt="Card image cap">
+					<div class="card-body">
+						<a class="btn btn-primary btn_green" href="#">graphics</a>
+						<h6 class="card-title job_titles">Stationary Design</h6>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="img/pic-3.jpg" alt="Card image cap">
+					<div class="card-body">
+						<a class="btn btn-primary btn_violet" href="#">graphics</a>
+						<h6 class="card-title job_titles">Logo Design</h6>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="img/pic-4.jpg" alt="Card image cap">
+					<div class="card-body">
+						<a class="btn btn-primary btn_yellow" href="#">graphics</a>
+						<h6 class="card-title job_titles">Branding</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="cards_in_job_wrap_second_top mt-4 text-center">
+				<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="img/pic-5.jpg" alt="Card image cap">
+						<div class="card-body">
+							<a class="btn btn-primary btn_green" href="#">graphics</a>
+							<h6 class="card-title job_titles">Visiting Card Design</h6>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="img/pic-6.jpg" alt="Card image cap">
+						<div class="card-body">
+							<a class="btn btn-primary btn_yellow" href="#">graphics</a>
+							<h6 class="card-title job_titles">Brochure Design</h6>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="img/pic-7.jpg" alt="Card image cap">
+						<div class="card-body">
+							<a class="btn btn-primary btn_blue" href="#">graphics</a>
+							<h6 class="card-title job_titles">Branding</h6>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="img/pic-8.jpg" alt="Card image cap">
+						<div class="card-body">
+							<a class="btn btn-primary btn_violet" href="#">graphics</a>
+							<h6 class="card-title job_titles">Stationary Design</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<p class="footer_txt pt-4">© 2015 JOB BOARD Landing Page By Mike Taylor</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src= "js/main.js"></script>
+</body>
+</html>
